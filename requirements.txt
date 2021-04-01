@@ -1,0 +1,7 @@
+nltk>=3.5
+gensim>=4.0.1
+torch>=1.8.1
+spacy>=3.0.5
+matplotlib>=3.4.1
+numpy>=1.20.2
+torchtext>=0.9.1
