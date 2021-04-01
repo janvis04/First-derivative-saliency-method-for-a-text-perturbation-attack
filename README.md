@@ -1,5 +1,5 @@
 # First-derivative saliency (Explainability) method for a text perturbation attack
 
-Abstract:
+**Abstract:**
 
 Neural networks have been used in various NLP tasks to achieve impressive results when compared to most of the machine learning models. However, when it comes to explaining the model or rationalising the output, it has always fallen short when compared to machine learning models. To address this, Li et al. proposed many ways of visualizing and understanding neural models in NLP. The first derivative input saliency method measures how much each word has contributed to the final decision. This helps in identifying important words which influences the output. Furthermore, as an attack method, we replace those important words using GloVe embeddings to flip the classes showing how efficiently the first derivative input saliency method identifies the important words as well as how vulnerable neural networks could be. This article is written as part of the ``Explainability Methods for Neural Networks`` seminar at Saarland University that took place in WS2020/2021. The article primarily focuses on the paper ``Visualizing and Understanding Neural Models in NLP`` by Li et al.
